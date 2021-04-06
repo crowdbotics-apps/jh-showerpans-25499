@@ -23,3 +23,11 @@ class User(AbstractUser):
         blank=True,
         max_length=255,
     )
+    email = models.BigIntegerField(
+        null=True,
+        blank=True,
+    )
+    phone_numbers = models.BigIntegerField(
+        null=True,
+        blank=True,
+    )

@@ -13,8 +13,9 @@ class CustomText(models.Model):
     app from the project.
     """
 
-    title = models.CharField(
+    dimensions = models.CharField(
         max_length=150,
+        blank=True,
     )
 
 
